@@ -1,0 +1,83 @@
+/* GENERIC FORM STYLING */
+#Content form {
+	width:378px;
+}
+	#Content form fieldset {
+		border:0;
+		padding:12px 0;
+	}
+		#Content .message {
+			color:red;
+			background:#ddd;
+			border:1px solid #ccc;
+			padding:5px;
+			margin:5px;
+		}
+		#Content form span.message {
+			display:none;
+			width: 300px;
+		}
+		#Content form div.field, #Content form p.field {
+			margin-top:10px;
+			width:100%;
+		}
+		#Content form label {
+			font-size:1.1em;
+			/* color:#333; */
+		}
+			#Content form label.left {
+				float:left;
+				width:34em;
+			}
+			#Content form label.FormHeading {
+				font-size:1.3em;
+				color:#ff7200;
+				font-weight:bold;
+			}
+		
+		#Content form label.required {
+			color:#f00;
+			font-weight:bold;
+			background:#CCC;
+			display:block;
+		}
+
+		/** We want the error message to appear above the list, not inside it */ 
+		#Content form ul label.required {
+			float:right;
+			margin-left:100px;
+			margin-top: -20px;
+		}
+		#Content form ul.optionset {
+			list-style-type: none;
+		}
+
+		#Content form input.text,
+		#Content form textarea,
+		#Content form select {
+			width:250px;
+			color:#000;
+			background:#f8f8f8;
+			border:1px solid #aaa;
+			padding:3px;
+		}
+		
+		#Content form input.numeric {
+			width:20px;
+			background:#f0f0f0;
+			border:1px solid #aaa;
+			padding:3px;
+			color:#000;
+			margin-right:4px;
+		}
+		#Content form input.year {
+			width:35px;
+		}
+		#Content form p.Actions {
+			text-align:right;
+			padding:0 22px 15px 0;
+		}
+			#Content form p.Actions input {
+				padding:2px;
+			}
+

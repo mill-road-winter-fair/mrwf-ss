@@ -1,0 +1,510 @@
+/****** FILE: themes/millroadwinterfair/css/layout.css *****/
+html { overflow: scroll; height: 100%; overflow-x:auto; }
+body {	height: 100%;
+	background-color: #efefea;
+	min-width: 960px;
+}
+body, p, td, input, select, textarea {
+	color: #380d0d;
+	font-family: "Droid Sans", Verdana, 'Liberation Sans', FreeSans, serif-serif;
+	font-size: 12px;
+	line-height: 120%;
+}
+* {	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+p {	margin: 0 0 1em 0;
+}
+img {	vertical-align: top;
+	border: 0;
+}
+a, a span {
+	color: #cc9900;
+	text-decoration: none;
+}
+a:hover, a:focus, a:hover span, a:focus span {
+	color: #c52724;
+}
+
+h1, h2 { font-family: "Droid Serif", Georgia, serif; }
+
+h1 {	margin: 12px 0 12px 0;
+	font-size: 20pt;
+	line-height: 100%;
+}
+h2 {	margin: 10px 0 10px 0;
+	font-size: 18pt;
+	line-height: 100%;
+}
+#SearchResults h2 { float: left; margin-top: 0; }
+#SearchResults li { width: 100%; }
+
+h3, h3 a {
+	margin: 10px 0 4px 0;
+	font-size: 13pt;
+	line-height: 100%;
+	font-weight: normal;
+}
+
+/**************************************
+** Generic styles
+*/
+
+#breadcrumbs .nav p {
+	float: left;
+}
+.nav ul, ul.nav {
+	float: left;
+	padding: 0; 
+	margin: 0;
+	list-style-type: none; 
+}
+.nav li {
+	float: left;
+	clear: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-image: none;
+}
+.nav a {
+	float: left;
+	display: block;
+	color: #cc9900;
+	text-decoration: none;
+}
+
+.nav a:hover, .nav a:focus,
+.nav a.current, .nav a.section {
+	color: #c52724;
+}
+
+
+.nav p {
+	clear: left;
+}
+.horizontal li {
+	clear: none;
+}
+
+/* Top nav */
+
+ul#nav1 {
+	width: 100%;
+	margin: 8px 0 0 0;
+	padding: 5px 0;
+	border-top: 1px dotted #c52724;
+	border-bottom: 1px dotted #c52724;
+}
+
+#nav1 li {
+	overflow: hidden;
+}
+#nav1 a {
+	padding: 5px 1em 5px 1em;
+	
+	font-family: "Droid Serif", Georgia, "Times New Roman", serif;
+	font-size: 14px;
+}
+#nav1 li.first a {
+	padding-left: 0;
+}
+
+/* Left nav */
+
+#nav2 {
+	margin: 0 0 5em 0;
+}
+
+#nav2 li {
+	clear: left;
+	width: 100%;
+}
+
+#nav2 a {
+	font-family: "Droid Serif", Georgia, "Times New Roman", serif;
+	width: 100%;
+	padding: 1em 0;
+	margin: 0;
+	font-size: 12px;
+	border-top: 1px dotted #888;
+	line-height: 150%;
+}
+
+#nav2 li.parent,
+#nav2 li.parent a {
+	padding-bottom: 0.5em;
+}
+#nav2 li.parent li a {
+	border-bottom: none;
+
+	font-size: 11px;
+	padding: 0.5em 0;
+	border: none;
+
+	margin: 0;
+}
+
+ul#nav2 ul {
+	width: 130px;
+	padding-left: 10px;
+}
+
+.main {
+	border-top: 1px dotted #888;
+}
+
+#pointy {
+	width: 160px;
+	margin: 10px 0 0 10px;
+	text-align: right;
+}
+#pointy img {
+	padding: 2px 1px 0 0;
+}
+
+#breadcrumbs p {
+	margin: 0;
+	color: #cc9900;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1em;
+}
+#breadcrumbs ul {
+	padding: 5px 0 5px 0;
+}
+#breadcrumbs li {
+	padding: 5px 0 5px 0;
+}
+#breadcrumbs a {
+	padding: 0 0 0 1em;
+	margin: 0 0 0 1em;
+	font-size: 12px;
+	border-left: 1px dotted #888;
+}
+#breadcrumbs li.first a {
+	border-left: none;
+	margin: 0;
+	padding: 0;
+}
+#breadcrumbs a.section {
+	color: #cc9900;
+}
+#breadcrumbs a.section:hover {
+	color: #c52724;
+}
+
+
+#SearchForm_SearchForm, #SearchForm_SearchForm fieldset, #Search, #Search .middleColumn {
+	display: inline;
+	border: none;
+	padding: 0;
+	margin: 0;
+	background-color: transparent;
+}
+
+#SearchForm_SearchForm_Search {
+	width:150px;
+	height:16px;
+	margin: 8px 2px 5px 0;
+	padding:0;
+	border:0;
+	color:#666666
+	background:none;
+	line-height:11px;
+	background-color: #cc9900;
+	color: #fff;
+}
+#SearchForm_SearchForm .action {
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	color: #c52724;
+	font-weight: bold;
+}
+
+	#Content form#OrderForm_OrderForm fieldset
+	{
+		padding:0;
+	}
+
+
+#sitemap ul {
+	padding-bottom: 0;
+}
+#sitemap li {
+	padding-bottom: 1em;
+}
+#sitemap li li {
+	padding-bottom: 0;
+}
+
+.unroll a:hover, .unroll a:focus {
+	text-decoration: none;
+}
+
+.unlink a, a.unlink {
+	color: #555;
+}
+.unlink a:hover, .unlink a:focus,
+a:hover.unlink , a:focus.unlink  {
+	text-decoration: none;
+	color: #555;
+}
+
+
+#footer-top {
+	background: transparent url(../../../assets/img/system/footer_strip.png) repeat-x;
+	line-height: 30px;
+}
+#footer {
+	background: transparent url(../../../assets/img/system/footer_background.png) repeat;
+	padding: 0 0 7em 0;
+}
+#footer h1 {
+	color: #fff;
+}
+#footer .typography h1 a {
+	color: #cc9900;
+	font-size: 20pt;
+
+}
+#footer .typography a {
+	color: #cc9900;
+}
+#footer .typography h2, #footer h2 {
+	color: #fff;
+	font-size: 14px;
+	margin: 0 0 6px 0;
+	line-height: 100%;
+}
+#footer a {
+	margin-bottom: 14px;
+}
+#footer a img {
+	float: left;
+	padding-right: 2px;
+}
+#footer .typography p {
+	color: #fff;
+}
+#footer .nav a, #footer .typography p, #footer .typography a {
+	font-size: 11px;
+	line-height: 120%;
+}
+
+#footer .typography a:hover, #footer .typography a:focus {
+	color: #c52724;
+	text-decoration: none;
+}
+
+.divide, li.divide {
+	border-top: 1px solid #888;
+	padding: 1em 0 0 0;
+	margin: 1em 0 0 0;
+}
+.padabove {
+	padding: 1em 0 0 0;
+}
+
+.footer-snow {
+	background: transparent url(../../../assets/img/system/white_icicle.png) no-repeat right 1em;
+}
+
+#twitter.nav li {
+	padding: 0 0 .8em 0;
+}
+#twitter.nav a {
+	display: inline;
+	float: none;
+}
+
+div.mu {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.highlight {
+	font-weight: bold;
+}
+
+.alpha {
+	clear: left;
+}
+
+/****** FILE: themes/millroadwinterfair/css/960_12_col.css *****/
+body{min-width:960px}.container_12{margin-left:auto;margin-right:auto;width:960px}.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12{display:inline;float:left;margin-left:10px;margin-right:10px}.push_1,.pull_1,.push_2,.pull_2,.push_3,.pull_3,.push_4,.pull_4,.push_5,.pull_5,.push_6,.pull_6,.push_7,.pull_7,.push_8,.pull_8,.push_9,.pull_9,.push_10,.pull_10,.push_11,.pull_11{position:relative}.alpha{margin-left:0}.omega{margin-right:0}.container_12 .grid_1{width:60px}.container_12 .grid_2{width:140px}.container_12 .grid_3{width:220px}.container_12 .grid_4{width:300px}.container_12 .grid_5{width:380px}.container_12 .grid_6{width:460px}.container_12 .grid_7{width:540px}.container_12 .grid_8{width:620px}.container_12 .grid_9{width:700px}.container_12 .grid_10{width:780px}.container_12 .grid_11{width:860px}.container_12 .grid_12{width:940px}.container_12 .prefix_1{padding-left:80px}.container_12 .prefix_2{padding-left:160px}.container_12 .prefix_3{padding-left:240px}.container_12 .prefix_4{padding-left:320px}.container_12 .prefix_5{padding-left:400px}.container_12 .prefix_6{padding-left:480px}.container_12 .prefix_7{padding-left:560px}.container_12 .prefix_8{padding-left:640px}.container_12 .prefix_9{padding-left:720px}.container_12 .prefix_10{padding-left:800px}.container_12 .prefix_11{padding-left:880px}.container_12 .suffix_1{padding-right:80px}.container_12 .suffix_2{padding-right:160px}.container_12 .suffix_3{padding-right:240px}.container_12 .suffix_4{padding-right:320px}.container_12 .suffix_5{padding-right:400px}.container_12 .suffix_6{padding-right:480px}.container_12 .suffix_7{padding-right:560px}.container_12 .suffix_8{padding-right:640px}.container_12 .suffix_9{padding-right:720px}.container_12 .suffix_10{padding-right:800px}.container_12 .suffix_11{padding-right:880px}.container_12 .push_1{left:80px}.container_12 .push_2{left:160px}.container_12 .push_3{left:240px}.container_12 .push_4{left:320px}.container_12 .push_5{left:400px}.container_12 .push_6{left:480px}.container_12 .push_7{left:560px}.container_12 .push_8{left:640px}.container_12 .push_9{left:720px}.container_12 .push_10{left:800px}.container_12 .push_11{left:880px}.container_12 .pull_1{left:-80px}.container_12 .pull_2{left:-160px}.container_12 .pull_3{left:-240px}.container_12 .pull_4{left:-320px}.container_12 .pull_5{left:-400px}.container_12 .pull_6{left:-480px}.container_12 .pull_7{left:-560px}.container_12 .pull_8{left:-640px}.container_12 .pull_9{left:-720px}.container_12 .pull_10{left:-800px}.container_12 .pull_11{left:-880px}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:before,.clearfix:after,.container_12:before,.container_12:after{content:'.';display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}.clearfix:after,.container_12:after{clear:both}.clearfix,.container_12{zoom:1}
+
+/****** FILE: themes/millroadwinterfair/css/typography.css *****/
+/**
+ * This typography file is included in the WYSIWYG editor
+ */
+
+/*
+	color: #380d0d;	Brown - normal text
+	color: #cc9900; Yellow - link normal
+	color: #c52724; Red - link rollover
+*/
+
+.typography, .typography p, .typography td, .typography li {
+	color: #380d0d;
+	font-family: "Droid Sans", Verdana, 'Liberation Sans', FreeSans, serif-serif;
+	font-size: 12px;
+	line-height: 160%;
+}
+.typography * {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+.typography table {	border-collapse: collapse;
+	border-spacing: 0;
+}
+.typography th, .typography td, .typography caption {
+	font-weight:normal;
+	vertical-align:	top;
+	text-align:left
+}
+
+.typography p {
+	margin: 0 0 1em 0;
+}
+.typography img {
+	vertical-align: top;
+	border: 0;
+}
+.typography hr {
+	height: 1px;
+	color: #999;
+	background-color: #999;
+}
+
+.typography a {
+	color: #cc9900;
+	text-decoration: none;
+}
+.typography a:hover, .typography a:focus {
+	color: #c52724;
+}
+
+.typography h1 {
+	font-family: "Droid Serif", Georgia, serif;
+	margin: 12px 0 12px 0;
+	font-size: 20pt;
+	line-height: 100%;
+}
+.typography h2 {
+	font-family: "Droid Serif", Georgia, serif;
+	margin: 10px 0 10px 0;
+	font-size: 18pt;
+	line-height: 100%;
+}
+.typography h3, .typography h3 a {
+	font-family: "Droid Serif", Georgia, serif;
+	margin: 10px 0 4px 0;
+	font-size: 13pt;
+	line-height: 100%;
+	font-weight: normal;
+}
+
+.typography ul {
+	margin: 0 0 1em 0;
+}
+.typography ul li {
+	padding: 0;
+	margin: 0 0 0 1.4em;
+}
+.typography ul ul {
+	margin-top: 1em;
+}
+
+
+/****** FILE: themes/millroadwinterfair/css/form.css *****/
+/* GENERIC FORM STYLING */
+#Content form {
+	width:378px;
+}
+	#Content form fieldset {
+		border:0;
+		padding:12px 0;
+	}
+		#Content .message {
+			color:red;
+			background:#ddd;
+			border:1px solid #ccc;
+			padding:5px;
+			margin:5px;
+		}
+		#Content form span.message {
+			display:none;
+			width: 300px;
+		}
+		#Content form div.field, #Content form p.field {
+			margin-top:10px;
+			width:100%;
+		}
+		#Content form label {
+			font-size:1.1em;
+			/* color:#333; */
+		}
+			#Content form label.left {
+				float:left;
+				width:34em;
+			}
+			#Content form label.FormHeading {
+				font-size:1.3em;
+				color:#ff7200;
+				font-weight:bold;
+			}
+		
+		#Content form label.required {
+			color:#f00;
+			font-weight:bold;
+			background:#CCC;
+			display:block;
+		}
+
+		/** We want the error message to appear above the list, not inside it */ 
+		#Content form ul label.required {
+			float:right;
+			margin-left:100px;
+			margin-top: -20px;
+		}
+		#Content form ul.optionset {
+			list-style-type: none;
+		}
+
+		#Content form input.text,
+		#Content form textarea,
+		#Content form select {
+			width:250px;
+			color:#000;
+			background:#f8f8f8;
+			border:1px solid #aaa;
+			padding:3px;
+		}
+		
+		#Content form input.numeric {
+			width:20px;
+			background:#f0f0f0;
+			border:1px solid #aaa;
+			padding:3px;
+			color:#000;
+			margin-right:4px;
+		}
+		#Content form input.year {
+			width:35px;
+		}
+		#Content form p.Actions {
+			text-align:right;
+			padding:0 22px 15px 0;
+		}
+			#Content form p.Actions input {
+				padding:2px;
+			}
+
+
+

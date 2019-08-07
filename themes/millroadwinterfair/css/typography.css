@@ -1,0 +1,82 @@
+/**
+ * This typography file is included in the WYSIWYG editor
+ */
+
+/*
+	color: #380d0d;	Brown - normal text
+	color: #cc9900; Yellow - link normal
+	color: #c52724; Red - link rollover
+*/
+
+.typography, .typography p, .typography td, .typography li {
+	color: #380d0d;
+	font-family: "Droid Sans", Verdana, 'Liberation Sans', FreeSans, serif-serif;
+	font-size: 12px;
+	line-height: 160%;
+}
+.typography * {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+.typography table {	border-collapse: collapse;
+	border-spacing: 0;
+}
+.typography th, .typography td, .typography caption {
+	font-weight:normal;
+	vertical-align:	top;
+	text-align:left
+}
+
+.typography p {
+	margin: 0 0 1em 0;
+}
+.typography img {
+	vertical-align: top;
+	border: 0;
+}
+.typography hr {
+	height: 1px;
+	color: #999;
+	background-color: #999;
+}
+
+.typography a {
+	color: #cc9900;
+	text-decoration: none;
+}
+.typography a:hover, .typography a:focus {
+	color: #c52724;
+}
+
+.typography h1 {
+	font-family: "Droid Serif", Georgia, serif;
+	margin: 12px 0 12px 0;
+	font-size: 20pt;
+	line-height: 100%;
+}
+.typography h2 {
+	font-family: "Droid Serif", Georgia, serif;
+	margin: 10px 0 10px 0;
+	font-size: 18pt;
+	line-height: 100%;
+}
+.typography h3, .typography h3 a {
+	font-family: "Droid Serif", Georgia, serif;
+	margin: 10px 0 4px 0;
+	font-size: 13pt;
+	line-height: 100%;
+	font-weight: normal;
+}
+
+.typography ul {
+	margin: 0 0 1em 0;
+}
+.typography ul li {
+	padding: 0;
+	margin: 0 0 0 1.4em;
+}
+.typography ul ul {
+	margin-top: 1em;
+}

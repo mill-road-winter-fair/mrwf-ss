@@ -1,0 +1,95 @@
+* { margin:0; padding:0; }
+body {
+	color: #380d0d;
+	font-family: Arial, Verdana, 'Liberation Sans', FreeSans, serif-serif;
+	font-size: 10pt;
+	line-height: 160%;
+}
+
+table { border-collapse:collapse; border-spacing:0; }
+caption, th, td { text-align:left; font-weight:normal; }
+img { max-width:320px; }
+.clear { clear:both; }
+td { padding: 0 10px 0 0; }
+
+a, a span {
+	color: #cc9900;
+	text-decoration: none;
+}
+a:hover, a:focus, a:hover span, a:focus span {
+	color: #c52724;
+}
+
+h1 {	font-family: Georgia, serif;
+	margin: 12px 0 12px 0;
+	font-size: 20pt;
+	line-height: 100%;
+}
+h2 {	font-family: Georgia, serif;
+	margin: 10px 0 10px 0;
+	font-size: 18pt;
+	line-height: 100%;
+}
+h3, h3 a {
+	font-family: Georgia, serif;
+	margin: 10px 0 4px 0;
+	font-size: 13pt;
+	line-height: 100%;
+	font-weight: normal;
+}
+
+ul { margin:0 0 0.7em 1em; }
+
+
+#Container { width:100%; padding: 10px;}
+#Layout { padding: 10px 0; }
+
+.vpad {	padding: 10px 0 0 0;
+}
+
+ul.nav  {
+	float: left;
+	width: 100%;
+}
+.nav li {
+	float: left;
+	list-style-type: none; 
+}
+.nav a {
+	padding-left: 10px;
+}
+.nav a.first {
+	padding-left: 0;
+}
+.nav a:hover, .nav a:focus,
+.nav a.current, .nav a.section {
+	color: #c52724;
+}
+
+#Navigation ul {
+	margin: 0;
+	border-bottom: 1px dotted #c52724;
+}
+.divide {
+	border-top: 1px dotted #c52724;
+	clear:both;
+}
+
+#Footer {
+	padding:10px 15px;
+	text-align:center;
+}
+#Footer p { text-align:center; }
+
+.highlight {
+	font-weight: bold;
+}
+ul.TwitterTimeLine {
+	padding: 0;
+	margin: 0;
+}
+.TwitterTimeLine li {
+	padding: 0 0 .8em 0;
+	margin: 0;
+	list-style: none;
+}

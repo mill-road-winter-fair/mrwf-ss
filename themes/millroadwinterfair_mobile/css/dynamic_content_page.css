@@ -1,0 +1,44 @@
+/* CSS declarations go here */
+#blurb {
+	display: block;
+}
+
+#sub_nav { 
+	display:inline-block;
+	color: #C90;
+}
+
+.visible_nav {
+	width: 100%;
+	margin:5px;
+}
+
+.event_elem, .shop_elem {
+	float:left;
+	width:200px;
+    margin:2px;
+	padding: 6px;
+}
+
+.event_elem {
+	width:400px;
+}
+
+.shop_content {
+	display: inline-block;
+}
+
+.shop_header {
+	font-size: 1.5em;
+}
+
+.shop_location {
+	padding-top:3px;
+	padding-bottom:3px;
+	color:#C52724;
+}
+
+.visible_nav .cat_nav {
+	float: left;
+	margin: 5px; 
+}
