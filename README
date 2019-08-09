@@ -1,5 +1,5 @@
 Mill Road Winter Fair Silverstripe Implementation
-=======================================================
+=================================================
 
 This is the core of the millroadwinterfair.org website, all the pages we add to the site are of one of the types defined in the Core folder and the live site also has a lot of plug-ins.
 
