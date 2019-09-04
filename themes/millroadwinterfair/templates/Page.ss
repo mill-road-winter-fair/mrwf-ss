@@ -27,7 +27,7 @@
 				</a>
 			</div>
 			<div class="grid_4" style="padding-top:64px;">
-				<img src="$imageDir/date-time.png" alt="Saturday 2nd December 2017, 10:30am to 4:30pm" />
+				<img src="$imageDir/date-time.png" alt="Saturday 7th December 2019, 10:30am to 4:30pm" />
 			</div>
 			<div class="grid_2 omega">
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">

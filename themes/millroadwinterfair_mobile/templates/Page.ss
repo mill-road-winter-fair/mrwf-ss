@@ -12,6 +12,8 @@
 		<div id="Container">
 			<div id="Header">
 				<a href="$Page(home).Link"><img src="assets/img/mobile/logo.png" /></a>
+				<!-- Time and date for this year's fair -->
+				<img src="assets/img/system/date-time.png" alt="Saturday 7th December 2019, 10:30am to 4:30pm" />
 			</div>
 			<div>
 				<form id="SearchForm_SearchForm" action="$page(search).Link/SearchForm" method="get" enctype="application/x-www-form-urlencoded">
